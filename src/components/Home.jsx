@@ -8,7 +8,8 @@ const Home = () => {
   return (
     <>
         <div className='section z-3 position-relative' id="home">
-            <h2 className='text-center p-md-4 '>Harshini Akshaya</h2>
+            <h2 className='text-center p-4'
+            >Harshini Akshaya</h2>
             <p className='p-4'>Passionate about MERN & UI/UX ; venturing into Cybersecurity & RPA</p>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <a href="https://github.com/harshiniakshaya/"><IoLogoGithub style={{color:"white", fontSize:"40px", marginBottom:'10px'}}/></a>

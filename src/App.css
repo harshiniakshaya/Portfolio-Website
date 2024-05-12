@@ -52,6 +52,16 @@
   0px 6px 0px #CCC,
   0px 7px 0px #CCC;
 }
+@media (max-width: 768px) {
+  #home h2 {
+    font-size: 60px; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-width: 576px) {
+  #home h2 {
+    font-size: 40px; /* Further adjust font size for even smaller screens */
+  }
+}
 
 #home p{
   color: white;
@@ -67,6 +77,17 @@
   font-size: 50px;
   color: white;
 }
+@media (max-width: 768px) {
+  #about h1{
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-width: 576px) {
+  #about h1{
+    font-size: 30px; /* Further adjust font size for even smaller screens */
+  }
+}
+
 #about p{
   color: white;
 }
@@ -88,6 +109,16 @@
   letter-spacing: 2px;
   font-weight: 700;
   color: white;
+}
+@media (max-width: 768px) {
+  #projects h1{
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-width: 576px) {
+  #projects h1{
+    font-size: 30px; /* Further adjust font size for even smaller screens */
+  }
 }
 
 #project{
@@ -119,6 +150,22 @@
 #certifications{
   background: linear-gradient(to right,#05134a,#2e0440 100%)
 }
+#certifications h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: white;
+}
+@media (max-width: 768px) {
+  #certifications h1{
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-width: 576px) {
+  #certifications h1{
+    font-size: 30px; /* Further adjust font size for even smaller screens */
+  }
+}
 
 .accordion-button {
   background:linear-gradient(to right,#05134a,#2e0440 100%);
@@ -138,4 +185,14 @@
   letter-spacing: 2px;
   font-weight: 700;
   color: white;
+}
+@media (max-width: 768px) {
+  #achievements h1{
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-width: 576px) {
+  #achievements h1{
+    font-size: 30px; /* Further adjust font size for even smaller screens */
+  }
 }

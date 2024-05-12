@@ -25,14 +25,7 @@ const Certifications = () => {
   return (
     <>
       <div className='section d-flex flex-column' id="certifications">
-        <h1 className='text-center my-5 mx-4' 
-          style={{
-            color:'white',
-            fontSize:'50px',
-            letterSpacing:'2px',
-            fontWeight:'700'
-          }}
-        >My Certifications</h1>
+        <h1 className='text-center my-5 mx-4'>My Certifications</h1>
         <div className="accordion w-75" id="accordionExample">
           {certificationData.map((certification, index) => (
             <div className="accordion-item" key={index}>
