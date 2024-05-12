@@ -9,8 +9,8 @@ const ProjectCard = ({ title, imageSrc, description, projectUrl }) => {
                 
             />
             <div className="card-body text-center" >
-                <h5 className="card-title" style={{height:'50px'}}>{title}</h5>
-                <p className="card-text" style={{ height: '75px', overflowY: 'auto',fontSize:'12px'}}>{description}</p>
+                <h5 className="card-title" style={{height:'60px'}}><strong>{title}</strong></h5>
+                <p className="card-text p-1" style={{ height: '100px', overflowY: 'auto',fontSize:'12px'}}>{description}</p>
                 <a href={projectUrl} ><IoLogoGithub style={{color:"white", fontSize:"40px", marginBottom:'10px'}}/></a>
             </div>
         </div>
