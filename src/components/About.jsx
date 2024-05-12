@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import ParticlesComponent from './Particles'
+import profileImage from '../assets/profile.png';
 
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-lg-6 col-md-6 col-12 text-center'>
-                        <img src="src/assets/profile.png" className='img-fluid z-3 position-relative'/>
+                        <img src={profileImage} className='img-fluid z-3 position-relative'/>
                     </div>
                     <div className='col-lg-6 col-md-6 col-12 p-lg-5 p-5 my-2'>
                         <h1>About Me</h1>
