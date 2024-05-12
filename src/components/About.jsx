@@ -12,7 +12,7 @@ const About = () => {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-lg-6 col-md-6 col-12 text-center'>
-                        <img src={profileImage} className='img-fluid z-3 position-relative'/>
+                        <img src={profileImage} className='img-fluid z-3 position-relative mt-5'/>
                     </div>
                     <div className='col-lg-6 col-md-6 col-12 p-lg-5 p-5 my-2'>
                         <h1>About Me</h1>

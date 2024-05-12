@@ -5,7 +5,7 @@ const Achievements = () => {
   return (
     <div className='section z-3 position-relative' id="achievements">
         <div className='container m-5'>
-            <h1 className='text-center my-5'>My Achievements</h1>
+            <h1 className='text-center my-5 mx-4'>My Achievements</h1>
             <div className='row'>
                 <div className='col-lg-4 col-md-4 col-12'>
                     <AchievementCard title="CBSE MERIT CERTIFICATE" subtitle="Top 0.1% (2022)" content="Awarded for outstanding academic performance and for being among the top 0.1 percent of successful candidates in All India Senior School Certificate Examination(COMPUTER SCIENCE) "/>

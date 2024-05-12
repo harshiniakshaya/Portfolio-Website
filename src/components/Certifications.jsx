@@ -25,7 +25,7 @@ const Certifications = () => {
   return (
     <>
       <div className='section d-flex flex-column' id="certifications">
-        <h1 className='text-center my-5' 
+        <h1 className='text-center my-5 mx-4' 
           style={{
             color:'white',
             fontSize:'50px',
