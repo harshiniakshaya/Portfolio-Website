@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 const Certifications = () => {
   const certificationData = [
     {
-      title: "Programming Fundamentals using Python - Infosys Springboard (Jun 2023)",
+      title: "Programming Fundamentals using Python - Part 1 - Infosys Springboard (Jun 2023)",
       link: "https://drive.google.com/file/d/1jbOXNKsi-xkS-tdxaf6dNvAl5YbZzO6l/view"
     },
     {
@@ -19,6 +19,14 @@ const Certifications = () => {
         title: "UiPath Academy Automation Explorer Training (Dec 2023)",
         link: "https://credentials.uipath.com/4dd97c6f-ddd9-4cad-ac37-8fb4c53e7aea#gs.99dtch"
       },
+      {
+        title: "NPTEL Online Certification - Privacy and Security in Online Social Media (Apr 2024)",
+        link: "https://drive.google.com/drive/folders/14uns158gb968f7DXV9C6Yz1oUUaRyEjL"
+      },
+      {
+        title:"ORACLE - Database Programming with SQL (May 2024)",
+        link:"https://drive.google.com/drive/folders/14uns158gb968f7DXV9C6Yz1oUUaRyEjL"
+      }
     // Add more certification items here as needed
   ];
 
